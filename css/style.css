@@ -178,10 +178,13 @@ textarea {
 
 input::placeholder {
     text-align: right;
-    color: #606060;
+    color: #808080;
     padding-right: 1em;
 }
 
+#zip_code {
+    width: 33%;
+}
 
 /*====Media Query====*/
 
@@ -200,8 +203,8 @@ input::placeholder {
         width: 38vw;
     }
 
-    legend:first-of-type {
-        padding-top: 0;
+    #zip_code {
+        max-width: 25%;
     }
 
     .contact-flex{
@@ -215,6 +218,7 @@ input::placeholder {
     .contact-container select{
         flex: 1 75%;
     }
+
     
     .contact-container label {
         flex: 1 25%;
@@ -223,7 +227,6 @@ input::placeholder {
     .contact-container input, .contact-container label, .contact-container select {
         width: unset;
     }
-
 
 
   }
