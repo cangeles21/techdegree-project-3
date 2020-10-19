@@ -182,7 +182,7 @@ input::placeholder {
     padding-right: 1em;
 }
 
-#zip_code {
+.zip_code {
     width: 33%;
 }
 
@@ -203,7 +203,7 @@ input::placeholder {
         width: 40vw;
     }
 
-    #zip_code {
+    .zip_code {
         max-width: 25%;
     }
 
